@@ -16,7 +16,7 @@ class App extends Component {
         </header>
         <div className="div-body">
           <FlipDiv>
-            <Front>
+            <Front onFlipComplete={(div)=>alert(div)}>
               <span>You can have some inputs at Front for exemplo</span>
               <br/>
               <label>First Name</label><input type="text"/>

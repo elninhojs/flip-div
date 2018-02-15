@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import 'font-awesome/css/font-awesome.min.css';
+
 
 export default class Front extends Component {
 
-
   doUnflip(div){
     div.parentElement.className = div.parentElement.className.concat(' flipped');
+    if(typeof this.props.onFlipComplete==='function'){
+      window.setTimeout(()=>this.props.onFlipComplete(div),1000);
+    }
   }
 
     render() {
