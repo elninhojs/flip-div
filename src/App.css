@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.div-body{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.div-body input,.div-body label{
+  display: block; 
+  text-align: left;
+  font-size: 14px;
+  margin-right:10px;
+  margin-left:10px;
+  width: 90%;
+}
+
+.div-body span{
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+
+.div-body ul{
+  display: block; 
+  text-align: left;
+  font-size: 14px;
+  margin-right:10px;
+  margin-left:10px;
+  width: 90%;
+}
+
+
