@@ -3,15 +3,19 @@ div.flip-div-root{
   height: 460px;
   position: relative;
   perspective: 800px;
+  display: inline-block;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 div.flip-div-root div.flip-div-card div.flip-div-item-front{
-    background-color:#c4c4c4;
+    border: solid 1px #CCCCCC;
+    background-color: aliceblue;
     border-radius: 0 10pt 0 0;
 }
 
 div.flip-div-root div.flip-div-card div.flip-div-item-back{
-    background-color: #cccccc;
+    border: solid 1px #CCCCCC;
+    background-color: aliceblue;
     transform: rotateY( 180deg );
     border-radius: 10pt 0 0pt 0;
 }
@@ -21,7 +25,6 @@ div.flip-div-root div.flip-div-card{
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transition: transform 1s;
 }
 
 div.flip-div-item, div.flip-div-item{
