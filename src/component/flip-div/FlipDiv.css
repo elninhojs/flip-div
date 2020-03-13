@@ -1,10 +1,10 @@
 div.flip-div-root{
-    width: 400px;
-  height: 460px;
+  width: 400px;
+  height: 400px;
   position: relative;
   perspective: 800px;
   display: inline-block;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 div.flip-div-root div.flip-div-card div.flip-div-item-front{
@@ -53,7 +53,16 @@ div.flip-div-root div.flip-div-item-front div.flip-div-item-head{
     padding-top: 5px;
 }
 
-div.flip-div-item-head i:hover{
+div.flip-div-item-head button:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+
+div.flip-div-item-head button{
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5pt;
+    min-width: 100px;
+    border: solid 1px #CCCCCC;
 }
